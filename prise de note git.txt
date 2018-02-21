@@ -1,0 +1,21 @@
+Denis NEBRASCA + François.
+GIT ///
+
+on ne commence pas en version 1.0, c'est la premiere version de prod.
+Commencer par V.x.y.z 
+z -> correction de patch
+y -> ajout d'une page 
+x -> changement majeur // changement d'access aux API/ au pages ...
+
+
+
+______________GITHUB________________
+echo "# testGit" >> README.md  ==> crer le fichier et écrit dedans
+git init   ==> initialise le projet
+git add README.md  ==> ajout le fichier
+git commit -m "first commit" =>commit et le -m ajout un commentaire indispensable
+git remote add origin https://github.com/gregyhub/testGit.git  ==> définit ou ira le depo sur le serveur distant
+git push -u origin master  ==> push envoie le projet
+git pull ==> récupère le projet du serveur distant
+!! toujours faire un pull avant un push !!!
+
