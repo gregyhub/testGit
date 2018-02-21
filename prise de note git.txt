@@ -44,3 +44,19 @@ git push -u origin master ==> envoie sur le server qu'on vient de définir
 git pull origin master
 git diff HEAD ==> voir les différence
 git diff --staged
+
+
+__________________git bash____________
+cd pour changer de rep
+mkdir pour creer un dossier 
+echo helo > index.php ==> va ecrir et crer le fichier
+php -l index.php va executer la page
+git rm index.php => supprime le fichier
+git rm --cached index.php =>supprime le fichier dans l'index
+git commit -m 'commentaire' . (pour tout) ou nomfichier
+git push origin master
+git diff origin/master || diff --stat || diff --name-only  || diff -w
+git checkout -b develop => créer une branche ; checkout pour changer de branch; -b pour creer la branche 
+
+
+________________VIM____________________
