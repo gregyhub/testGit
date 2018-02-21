@@ -1,4 +1,4 @@
 <?php 
 	echo 're';
-	echo 'salut';
+	echo 'kikou';
 	echo 'test';
